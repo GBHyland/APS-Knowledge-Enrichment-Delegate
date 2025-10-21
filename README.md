@@ -2,7 +2,7 @@
 Calling Knowledge Enrichment from Alfresco Process Services using a Java delgate.
 
 ### How it Works:
-This project breaks the Authentication API call from the Context API calls, grouping the Context API calls into one script that handles a sinlge job.
+This project contains multiple API calls to Hyland's Knowledge Enrichment product, including the Authentication API call and the Context API calls necessary for performing a job. The Authentication and Context API calls are seperated to provide more flexibility at implementation.
 The delegate contains three classes, outline here:
 - **OAuthApiCallDelegate**: Calls the auth API and receives a Bearer Token.
 - **ContextEnrichmentApiDelegate**: Processes an image (jpeg) with "image-description" action to get a summarization of the image.
