@@ -18,5 +18,5 @@ The next steps can be in any order:
 2. Provide a service task that processes the summary on the image variable [imageBase64] calling the class: ```com.example.aps.delegate.ContextEnrichmentApiDelegate```.
 3. Provide a service task that processes the metadata extraction on the PDF variable [objPDF] calling the class: ```com.example.aps.delegate.ContextEnrichmentMetadata```.
    - To edit the pre-configured JSON model [kSimilarMetadata] being sent to the context API for this call you'll need to edit the Java class (for now). 
-   - Review the APIP here for further guidance: (Process Content Async)[https://hyland.github.io/ContentIntelligence-Docs/KnowledgeEnrichment/Reference/Context%20API/Endpoints/process-content-asynchronously]
+   - Review the APIP here for further guidance: [Process Content Async](https://hyland.github.io/ContentIntelligence-Docs/KnowledgeEnrichment/Reference/Context%20API/Endpoints/process-content-asynchronously)
 
